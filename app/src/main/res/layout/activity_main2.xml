@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp" android:paddingRight="16dp"
+    android:paddingTop="16dp" android:paddingBottom="16dp"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/textNama"
+        android:text="Nama      : "
+        android:textSize="3mm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp" />
+
+    <TextView
+        android:id="@+id/namaValue"
+        android:ems="10"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textNama"
+        android:layout_alignBottom="@+id/textNama"
+        android:layout_toEndOf="@+id/textNama"
+        android:layout_marginStart="20dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textHp"
+        android:text="No Hp       : "
+        android:textSize="3mm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textEmail"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp" />
+
+    <TextView
+        android:id="@+id/nohpValue"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textHp"
+        android:layout_alignBottom="@+id/textHp"
+        android:layout_toEndOf="@+id/textHp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:text="Email         :"
+        android:textSize="3mm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textNama"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp" />
+
+    <TextView
+        android:id="@+id/emailValue"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textEmail"
+        android:layout_alignBottom="@+id/textEmail"
+        android:layout_toEndOf="@+id/textEmail"
+        android:layout_marginStart="20dp" />
+
+</RelativeLayout>
